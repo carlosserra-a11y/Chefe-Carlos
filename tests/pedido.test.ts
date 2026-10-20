@@ -77,7 +77,7 @@ test('monta mensagem completa para o WhatsApp', () => {
 });
 
 test('gera link do WhatsApp com texto codificado', () => {
-  const url = linkWhatsApp('554896835439', 'Olá & até já');
-  assert.equal(url, 'https://wa.me/554896835439?text=Ol%C3%A1%20%26%20at%C3%A9%20j%C3%A1');
-  assert.equal(linkWhatsApp('554896835439'), 'https://wa.me/554896835439');
+  const url = linkWhatsApp('5548996835439', 'Olá & até já');
+  assert.equal(url, 'https://wa.me/5548996835439?text=Ol%C3%A1%20%26%20at%C3%A9%20j%C3%A1');
+  assert.equal(linkWhatsApp('5548996835439'), 'https://wa.me/5548996835439');
 });

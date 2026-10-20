@@ -2,9 +2,9 @@
 // As fotos ficam em public/assets/fotos/<nome>.webp (+ <nome>-thumb.webp).
 import type { CategoriaId, Ceia, Criacao, Evento, Extra } from '../types.ts';
 
-/** WhatsApp oficial do Chef: +55 48 9683-5439 (formato internacional, só dígitos). */
-export const WHATSAPP_NUMERO = '554896835439';
-export const WHATSAPP_EXIBICAO = '+55 48 9683-5439';
+/** WhatsApp oficial do Chef: +55 48 99683-5439 (formato internacional, só dígitos). */
+export const WHATSAPP_NUMERO = '5548996835439';
+export const WHATSAPP_EXIBICAO = '+55 48 99683-5439';
 export const INSTAGRAM_URL = 'https://www.instagram.com/chefcarlosjr_gastronomia/';
 export const INSTAGRAM_USUARIO = '@chefcarlosjr_gastronomia';
 
